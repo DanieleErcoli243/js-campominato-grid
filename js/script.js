@@ -17,6 +17,7 @@ button.addEventListener("click", function () {
 
         cell.addEventListener("click", function () {
             cell.classList.toggle("clicked");
+            console.log(i + 1);
         })
 
     }
