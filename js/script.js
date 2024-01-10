@@ -25,7 +25,11 @@ button.addEventListener("click", function () {
             console.log(i + 1);
         })
     }
+    
+    
 })
+
+
 
 levelChoice.addEventListener ("change", function () {
     const levelValue = levelChoice.value;
