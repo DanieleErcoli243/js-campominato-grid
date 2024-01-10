@@ -11,6 +11,7 @@ const totalCells = 100;
 button.addEventListener("click", function () {
     for (let i = 0; i < totalCells; i++){
         const cell = document.createElement("div");
+        cell.innerText = i + 1;
         cell.classList.add("cell");
         grid.appendChild(cell);
     }
