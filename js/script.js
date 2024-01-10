@@ -2,8 +2,10 @@
 const button = document.getElementById("play");
 const levelChoice = document.getElementById("level");
 const grid = document.querySelector(".grid");
-
-// dichiaro la costante col numero totale di celle
+const bigLevel = document.getElementById("big");
+const mediumLevel = document.getElementById("medium");
+const smallLevel = document.getElementById("small");
+// dichiaro la costante col numero totale di cell
 const totalCells = 100;
 
 // aggancio la creazione della griglia al click del pulsante
@@ -22,8 +24,11 @@ button.addEventListener("click", function () {
             cell.classList.toggle("clicked");
             console.log(i + 1);
         })
-
     }
 })
 
+levelChoice.addEventListener ("change", function () {
+    const levelValue = levelChoice.value;
+    console.log(levelValue);
+})
 
