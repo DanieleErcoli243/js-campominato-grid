@@ -30,6 +30,7 @@ img{
 .container{
     max-width: 1080px;
     margin: 0 auto;
+    padding: 20px 0 20px 0;
 }
 
 footer{
@@ -55,5 +56,28 @@ form{
 
 form{
     padding: 0 20px 0 0;
+}
+
+/* griglia */
+
+.grid{
+    border: 1px solid black;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+
+.cell.clicked{
+    background-color: rgb(2, 69, 137);
 }
 
