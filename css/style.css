@@ -27,6 +27,12 @@ img{
     width: 45px;
 }
 
+footer{
+    height: 50px;
+    background-color: white;
+    padding: 10px 0 10px 10px;
+}
+
 
 /* header */
 
