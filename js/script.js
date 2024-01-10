@@ -14,5 +14,12 @@ button.addEventListener("click", function () {
         cell.innerText = i + 1;
         cell.classList.add("cell");
         grid.appendChild(cell);
+
+        cell.addEventListener("click", function () {
+            cell.classList.toggle("clicked");
+        })
+
     }
 })
+
+
