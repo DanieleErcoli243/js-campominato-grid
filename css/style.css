@@ -87,11 +87,11 @@ form{
 }
 
 .cell.medium {
-    width: 9%;
-    height: 9%;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
 }
 
 .cell.small{
-    height: 7%;
-    width: 7%;
+    height: calc(100% / 7);
+    width: calc(100% / 7);
 }
