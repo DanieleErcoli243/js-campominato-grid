@@ -69,8 +69,7 @@ form{
 }
 
 .cell{
-    width: 100px;
-    height: 100px;
+    
     border: 1px solid black;
     cursor: pointer;
     display: flex;
@@ -82,3 +81,17 @@ form{
     background-color: rgb(0, 99, 199);
 }
 
+.cell.big{
+    width: 10%;
+    height: 10%;
+}
+
+.cell.medium {
+    width: 9%;
+    height: 9%;
+}
+
+.cell.small{
+    height: 7%;
+    width: 7%;
+}
