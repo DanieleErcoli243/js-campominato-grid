@@ -42,9 +42,8 @@ const startGame = event => {
     // determino la grandezza delle celle in base al valore
     grid.classList.add(level);
     // determino la quantità di celle in base al value
-    let rows;
-    let cols;
-    const totalCells = rows * cols;
+    let rows = 10;
+    let cols = 10;
     switch (level) {
         case "medium":
             rows = 9;
@@ -54,11 +53,11 @@ const startGame = event => {
             rows = 7;
             cols = 7;
             break;
-        default:
-            rows = 10;
-            cols = 10;
+            default:
     }
-    console.log(totalCells);
+    const totalCells = rows * cols;
+
+    
     // genero le celle
     for (let i = 0; i < totalCells; i++){
         const cell = createCell(i);
