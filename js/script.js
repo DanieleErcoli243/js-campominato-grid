@@ -30,9 +30,7 @@ const startGame = event => {
     // funzione che cambia il colore della cella ed esegue il console.log del numero della cella 
     const onCellClicked = event => {
         // impedisco di ricliccare una cella
-        if (cell.classList.containes("clicked")) return;
-        cell.classList.add("clicked");
-        console.log(event.target.innertText);
+        
     }
     // cambio il testo nel bottone
     button.innerText = "Rigioca";
@@ -65,7 +63,11 @@ const startGame = event => {
         // appendo le celle alla griglia
         grid.appendChild(cell);
         // aggancio al click sulle celle il toggle della classe clicked per colorare le suddette
-        cell.addEventListener("click", onCellClicked);
+        cell.addEventListener("click", () => {
+            if (cell.classList.contains("clicked")) return;
+            cell.classList.add("clicked");
+            console.log(i);
+        });
     }
 
     // cell.addEventListener ("click", onCellCLicked)
