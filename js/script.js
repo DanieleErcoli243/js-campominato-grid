@@ -27,11 +27,7 @@ const startGame = event => {
     }
     
 
-    // funzione che cambia il colore della cella ed esegue il console.log del numero della cella 
-    const onCellClicked = event => {
-        // impedisco di ricliccare una cella
-        
-    }
+    
     // cambio il testo nel bottone
     button.innerText = "Rigioca";
     
@@ -66,7 +62,8 @@ const startGame = event => {
         cell.addEventListener("click", () => {
             if (cell.classList.contains("clicked")) return;
             cell.classList.add("clicked");
-            console.log(i);
+            // stampo in console il numero della cella
+            console.log(i + 1);
         });
     }
 
