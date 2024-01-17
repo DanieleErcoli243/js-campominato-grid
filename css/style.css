@@ -28,7 +28,7 @@ img{
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 80vh;
     margin: 0 auto;
     padding: 20px 0 20px 0;
 }
@@ -60,9 +60,9 @@ form{
 
 /* griglia */
 
-.grid{
-    width: 1000px;
-    height: 1000px;
+#grid{
+    width: 80vh;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
