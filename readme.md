@@ -1,3 +1,11 @@
+Campo minato grid
+This is a popular arcade game, minefield. 
+We had to recreate a layout by copying a png with vanilla html and css
+and to generate a hundred cells grid with javascript. Every cell has its number printed.
+Then by clicking on a cell, its background colour should change and the console has to log a message.
+There was also a bonus that consisted in creating a select to change the number of the cells inside the grid.
+
+
 Ciao ragazzi!
 Esercizio di oggi: Griglia Dinamica
 repo: js-campominato-grid
